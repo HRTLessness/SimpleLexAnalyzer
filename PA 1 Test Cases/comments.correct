@@ -1,0 +1,15 @@
+PROGRAM
+IDENT: "prog1"
+SEMICOL
+BEGIN
+IDENT: "r"
+EQ
+ICONST: "50"
+IDENT: "END"
+
+Lines: 10
+Total Tokens: 8
+Identifiers: 3
+Numbers: 1
+Booleans: 0
+Strings: 0

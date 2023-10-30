@@ -1,0 +1,26 @@
+PLUS
+MULT
+DIV
+MINUS
+EQ
+EQ
+GTHAN
+LTHAN
+EQ
+LPAREN
+RPAREN
+ASSOP
+IDIV
+MOD
+AND
+OR
+NOT
+COLON
+EQ
+
+Lines: 7
+Total Tokens: 19
+Identifiers: 0
+Numbers: 0
+Booleans: 0
+Strings: 0

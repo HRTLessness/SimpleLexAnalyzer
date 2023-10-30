@@ -1,0 +1,6 @@
+RCONST: "23.5"
+RCONST: "15.0"
+RCONST: "0.75"
+DOT
+ICONST: "8"
+Error in line 2: Unrecognized Lexeme {27.57.}

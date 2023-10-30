@@ -1,0 +1,78 @@
+PROGRAM
+IDENT: "prog1"
+SEMICOL
+VAR
+INTEGER
+IDENT: "x1"
+COMMA
+IDENT: "y_1"
+COMMA
+IDENT: "z"
+MINUS
+COMMA
+IDENT: "w234"
+SEMICOL
+STRING
+IDENT: "str"
+ASSOP
+SCONST: "Welcome"
+SEMICOL
+REAL
+IDENT: "z"
+SEMICOL
+BOOLEAN
+IDENT: "flag"
+EQ
+BCONST: "true"
+COMMA
+IDENT: "bing"
+EQ
+BCONST: "false"
+SEMICOL
+BEGIN
+IDENT: "r"
+EQ
+ICONST: "50"
+SEMICOL
+IF
+IDENT: "x"
+EQ
+ICONST: "1"
+THEN
+IDENT: "z"
+EQ
+RCONST: "0.0"
+ELSE
+IDENT: "z"
+EQ
+MINUS
+ICONST: "1"
+SEMICOL
+WRITELN
+LPAREN
+IDENT: "str"
+COMMA
+SCONST: " to cs 280 course"
+RPAREN
+SEMICOL
+IDENT: "END"
+DOT
+
+Lines: 14
+Total Tokens: 59
+Identifiers: 11
+Numbers: 3
+Booleans: 2
+Strings: 2
+IDENTIFIERS:
+END, bing, flag, prog1, r, str, w234, x, x1, y_1, z
+NUMBERS:
+0
+1
+50
+BOOLEANS:
+false
+true
+STRINGS:
+" to cs 280 course"
+"Welcome"

@@ -1,0 +1,23 @@
+IDENT: "A"
+PROGRAM
+IDENT: "contains"
+REAL
+COMMA
+INTEGER
+COMMA
+AND
+IDENT: "char"
+IDENT: "variables"
+IDENT: "You"
+IDENT: "can"
+IDENT: "use"
+IDENT: "it"
+IDENT: "to"
+IDENT: "read"
+IDENT: "from"
+IDENT: "the"
+IDENT: "keyboard"
+IDENT: "values"
+COMMA
+IDENT: "calculate"
+Error in line 2: Unrecognized Lexeme {?}

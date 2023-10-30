@@ -1,0 +1,34 @@
+ICONST: "3456"
+RCONST: "10.25"
+ICONST: "1"
+COMMA
+ICONST: "234"
+ICONST: "45"
+IDENT: "hello"
+ICONST: "4321"
+RCONST: "1.25"
+RCONST: "75."
+DOT
+ICONST: "45"
+ICONST: "278"
+ICONST: "10"
+ICONST: "25"
+
+Lines: 4
+Total Tokens: 15
+Identifiers: 1
+Numbers: 11
+Booleans: 0
+Strings: 0
+NUMBERS:
+1
+1.25
+10
+10.25
+25
+45
+75
+234
+278
+3456
+4321

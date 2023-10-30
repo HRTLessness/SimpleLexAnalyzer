@@ -1,0 +1,10 @@
+PROGRAM
+IDENT: "prog1"
+SEMICOL
+
+Lines: 10
+Total Tokens: 3
+Identifiers: 1
+Numbers: 0
+Booleans: 0
+Strings: 0
