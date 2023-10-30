@@ -1,0 +1,26 @@
+Summary: Lines, Total Tokens, Identifiers, Numbers, Booleans, Strings
+
+Output:
+-v flag => List tokens, Summary info
+No flags => Summary Info
+-idents flag => prints unique identifiers in alphabetical order
+-nconst => List unique Number constant in order
+-bconst => list unique Boolean constants in order
+-sconst => list string constants in alphabetical order
+
+
+Methods:
+operator<< => print out the string value of Tokens, if it is (IDENT, ICONST, RCONST, SCONST, or BCONST) 
+            it will print out the token along with the lexeme
+id_or_kw() => searches for the lexeme in a map returns its corresponding token, or IDENT otherwise.
+getNextToken()
+
+
+Slide Notes:
+For multi-character tokens, such as IDENT, ICONST, RCONST, and 
+SCONST, create a state for each type of token, for example INID for
+recognizing identifiers (IDENT), ININT for recognizing integer
+constants (ICONST), and INSTRING for recognizing string literals
+(SCONST) .
+Transition from one state to another state is possible. For example from
+the state of recognizing ICONST to the state of recognizing RCONST.
